@@ -1,0 +1,43 @@
+/* 
+ 
+By:                                        
+ 
+_ __ ___ 119574 
+| '__/ __| 
+| |  \__ \ 
+|_|  |___/ 
+ 
+*/ 
+#include<bits/stdc++.h> 
+#define mp make_pair 
+#define ll  long long int 
+#define vi vector<int> 
+#define vll vector<long long> 
+#define lb lower_bound 
+#define pb push_back 
+#define ub upper_bound 
+#define sort(v) sort(v.begin() , v.end()) 
+#define pii pair<int , int> 
+#define pll pair<ll , ll> 
+#define ignor cin.ignore(numeric_limits<streamsize>::max(), '\n');
+#define mod 1000000007 
+#define inf 0x3f3f3f3f
+#define PI 3.14159265358979323846
+#define E 2.71828182845904523536
+#define rep(i,a,b) for (int i = a; i <= b; i++) 
+#define sq(a) (a)*(a) 
+#define fix(a,b) ((a-1)/b)+1
+int main(){ 
+ios_base :: sync_with_stdio(false); 
+cin.tie(NULL); 
+int t;
+cin >> t; 
+while(t--){ 
+ 
+ 
+ 
+} 
+fflush(stdin); 
+fflush(stdout); 
+return 0; 
+} 
