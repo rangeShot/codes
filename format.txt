@@ -47,7 +47,7 @@ const double pi=acos(-1);
 #define inf 0x3f3f3f3f
 #define TEST 1
 
-void fun(){
+void pre(){
     return ;
 }
 
@@ -72,7 +72,7 @@ cout.open("opt.txt");
 
     #ifdef TEST
     in(n);
-    fun();
+    pre();
     rep(i,n)
     #endif
     solve();
