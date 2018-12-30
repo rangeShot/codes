@@ -4,7 +4,7 @@ using namespace std;
 //pogram for insertion sort
 
 void fun(int *arr, int n){
-    if(n>0){
+    
         for(int i=1;i<n;i++){
         int j=i;
         while(arr[j]<arr[j-1] && j>0){
@@ -13,7 +13,6 @@ void fun(int *arr, int n){
         }
     }
         
-    }
 }
 
 int main(){
