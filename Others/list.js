@@ -30,7 +30,7 @@ function disp(tempHead){
 function hasCycle(head){
     let tempHead1=head;
     let tempHead2=head;
-    let haveCycle=true;
+    let haveCycle=false;
     while(tempHead2.next.next != null){
         tempHead1=tempHead1.next;
         tempHead2=tempHead2.next.next;
