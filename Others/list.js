@@ -4,7 +4,7 @@
 //User Input
 let size=5;
 let arr=[1,2,3,4,5];
-let connectLastAt=2;
+let connectLastAt=-2;//for nesting this value should be in range (0,size], otherwise nesting will failed
 
 
 class Node{
@@ -34,7 +34,7 @@ function hasCycle(head){
     let tempHead1=head;
     let tempHead2=head;
     let haveCycle=false;
-    while(tempHead2.next.next != null){
+    while(tempHead2.next !=null && tempHead2.next.next != null){
         tempHead1=tempHead1.next;
         tempHead2=tempHead2.next.next;
         if(tempHead1 == tempHead2){
@@ -70,8 +70,14 @@ while(lastNode.next != null){
     if(count==connectLastAt)nestedNode=lastNode;
     count++;
 }
-lastNode.next=nestedNode;
-console.log("The list has been nested");
+if(connectLastAt>0){
+    lastNode.next=nestedNode;
+    console.log("The list has been nested");
+}
+else{
+    console.log("Nesting failed");
+}
+
 
 // disp(head);
 
@@ -82,3 +88,4 @@ if(hasCycle(head)){
 else {
     console.log("loop not detected");
 }
+
