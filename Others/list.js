@@ -1,3 +1,6 @@
+// Implementation 
+// creating singly linked list , nesting & detecting loops
+
 //User Input
 let size=5;
 let arr=[1,2,3,4,5];
